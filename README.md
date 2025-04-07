@@ -9,6 +9,17 @@
 5. Сделайте fork [репозитория](https://github.com/aragastmatb/example-teamcity).
 6. Создайте VM (2CPU4RAM) и запустите [playbook](./infrastructure).
 
+## Выполнение подготовки 
+1. Подготовим машину jetbrains/teamcity-server
+ ![рис 6](https://github.com/ysatii/teamcity/blob/main/img/img_6.jpg)
+
+2. Произведем настройку jetbrains-teamcity-server
+ ![рис 1](https://github.com/ysatii/teamcity/blob/main/img/img_1.jpg)
+ ![рис 2](https://github.com/ysatii/teamcity/blob/main/img/img_2.jpg)
+ ![рис 3](https://github.com/ysatii/teamcity/blob/main/img/img_3.jpg)
+ ![рис 4](https://github.com/ysatii/teamcity/blob/main/img/img_4.jpg)
+ ![рис 5](https://github.com/ysatii/teamcity/blob/main/img/img_5.jpg)
+
 
 
 ## Основная часть
