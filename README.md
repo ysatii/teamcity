@@ -20,6 +20,12 @@
  ![рис 4](https://github.com/ysatii/teamcity/blob/main/img/img_4.jpg)
  ![рис 5](https://github.com/ysatii/teamcity/blob/main/img/img_5.jpg)
 
+3. Создадим ещё один инстанс (2CPU4RAM) на основе образа `jetbrains/teamcity-agent`. Пропишим к ему переменную окружения `SERVER_URL: "http://<teamcity_url>:8111"`.
+ ![рис 7](https://github.com/ysatii/teamcity/blob/main/img/img_7.jpg)
+
+4. Авторизируем агент
+ ![рис 8](https://github.com/ysatii/teamcity/blob/main/img/img_8.jpg)
+ 
 
 
 ## Основная часть
