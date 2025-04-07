@@ -25,7 +25,14 @@
 
 4. Авторизируем агент
  ![рис 8](https://github.com/ysatii/teamcity/blob/main/img/img_8.jpg)
+
+5. Сделаем fork [репозитория](https://github.com/aragastmatb/example-teamcity).
+ ![рис 9](https://github.com/ysatii/teamcity/blob/main/img/img_9.jpg)
+
+ новый репозиторий [forked from aragastmatb/example-teamcity](https://github.com/ysatii/example-teamcity)
  
+
+
 
 
 ## Основная часть
