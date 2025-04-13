@@ -62,8 +62,17 @@
 
 7. Запустите сборку по master, убедитесь, что всё прошло успешно и артефакт появился в nexus.
  ![рис 17](https://github.com/ysatii/teamcity/blob/main/img/img_17.jpg)
+ ![рис 18](https://github.com/ysatii/teamcity/blob/main/img/img_18.jpg)
 
 8. Мигрируйте `build configuration` в репозиторий.
+ ![рис 19](https://github.com/ysatii/teamcity/blob/main/img/img_19.jpg)
+ ![рис 20](https://github.com/ysatii/teamcity/blob/main/img/img_20.jpg)
+ ![рис 21](https://github.com/ysatii/teamcity/blob/main/img/img_21.jpg)
+ ![рис 22](https://github.com/ysatii/teamcity/blob/main/img/img_22.jpg)
+
+
+
+
 9. Создайте отдельную ветку `feature/add_reply` в репозитории.
 10. Напишите новый метод для класса Welcomer: метод должен возвращать произвольную реплику, содержащую слово `hunter`.
 11. Дополните тест для нового метода на поиск слова `hunter` в новой реплике.
