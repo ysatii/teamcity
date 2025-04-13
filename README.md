@@ -52,6 +52,8 @@
  ![рис 15](https://github.com/ysatii/teamcity/blob/main/img/img_15.jpg)
 
 4. Поменяйте условия сборки: если сборка по ветке `master`, то должен происходит `mvn clean deploy`, иначе `mvn clean test`.
+ ![рис 16](https://github.com/ysatii/teamcity/blob/main/img/img_16.jpg)
+
 5. Для deploy будет необходимо загрузить [settings.xml](./teamcity/settings.xml) в набор конфигураций maven у teamcity, предварительно записав туда креды для подключения к nexus.
 6. В pom.xml необходимо поменять ссылки на репозиторий и nexus.
 7. Запустите сборку по master, убедитесь, что всё прошло успешно и артефакт появился в nexus.
