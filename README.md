@@ -55,8 +55,14 @@
  ![рис 16](https://github.com/ysatii/teamcity/blob/main/img/img_16.jpg)
 
 5. Для deploy будет необходимо загрузить [settings.xml](./teamcity/settings.xml) в набор конфигураций maven у teamcity, предварительно записав туда креды для подключения к nexus.
+[settings.xml](https://github.com/ysatii/teamcity/blob/main/settings.xml)
+
 6. В pom.xml необходимо поменять ссылки на репозиторий и nexus.
+[pom.xml](https://github.com/ysatii/example-teamcity/blob/master/pom.xml)
+
 7. Запустите сборку по master, убедитесь, что всё прошло успешно и артефакт появился в nexus.
+ ![рис 17](https://github.com/ysatii/teamcity/blob/main/img/img_17.jpg)
+
 8. Мигрируйте `build configuration` в репозиторий.
 9. Создайте отдельную ветку `feature/add_reply` в репозитории.
 10. Напишите новый метод для класса Welcomer: метод должен возвращать произвольную реплику, содержащую слово `hunter`.
