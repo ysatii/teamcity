@@ -71,9 +71,10 @@
  ![рис 22](https://github.com/ysatii/teamcity/blob/main/img/img_22.jpg)
 
 
-9. Создайте отдельную ветку `feature/add_reply` в репозитории.
+9. Создадим отдельную ветку `feature/add_reply` в репозитории.
+```
 git checkout -b feature/add_reply
-
+```
 
 10. Напишите новый метод для класса Welcomer: метод должен возвращать произвольную реплику, содержащую слово `hunter`.
 Welcomer.java и добавим туда:
@@ -92,15 +93,16 @@ public void testHunterReplyContainsHunter() {
     assertTrue(reply.contains("hunter"));
 }
 
-12. Сделайте push всех изменений в новую ветку репозитория.
+12. Сделаtv push всех изменений в новую ветку репозитория.
+```
 git add .
 git commit -m "Add hunterReply() method and test"
 git push origin feature/add_reply
-
-13. Убедитесь, что сборка самостоятельно запустилась, тесты прошли успешно.
+```
+13. Убедимся что сборка самостоятельно запустилась, тесты прошли успешно.
  ![рис 21](https://github.com/ysatii/teamcity/blob/main/img/img_21.jpg)
  ![рис 22](https://github.com/ysatii/teamcity/blob/main/img/img_22.jpg)
- 
+
 14. Внесите изменения из произвольной ветки `feature/add_reply` в `master` через `Merge`.
 15. Убедитесь, что нет собранного артефакта в сборке по ветке `master`.
 16. Настройте конфигурацию так, чтобы она собирала `.jar` в артефакты сборки.
