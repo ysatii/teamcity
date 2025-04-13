@@ -35,22 +35,21 @@
 
  ![рис 10](https://github.com/ysatii/teamcity/blob/main/img/img_10.jpg)
  ![рис 11](https://github.com/ysatii/teamcity/blob/main/img/img_11.jpg)
- ![рис 12](https://github.com/ysatii/teamcity/blob/main/img/img_12.jpg)
- ![рис 13](https://github.com/ysatii/teamcity/blob/main/img/img_13.jpg)
- ![рис 14](https://github.com/ysatii/teamcity/blob/main/img/img_14.jpg)
- ![рис 15](https://github.com/ysatii/teamcity/blob/main/img/img_15.jpg)
 
- 
+
 
 ## Основная часть
 
 1. Создайте новый проект в teamcity на основе fork.
  новый репозиторий [forked from aragastmatb/example-teamcity](https://github.com/ysatii/example-teamcity)
-
+ ![рис 12](https://github.com/ysatii/teamcity/blob/main/img/img_12.jpg)
+ ![рис 13](https://github.com/ysatii/teamcity/blob/main/img/img_13.jpg)
 2. Сделайте autodetect конфигурации.
  
 
 3. Сохраните необходимые шаги, запустите первую сборку master.
+ ![рис 14](https://github.com/ysatii/teamcity/blob/main/img/img_14.jpg)
+ ![рис 15](https://github.com/ysatii/teamcity/blob/main/img/img_15.jpg)
 
 4. Поменяйте условия сборки: если сборка по ветке `master`, то должен происходит `mvn clean deploy`, иначе `mvn clean test`.
 5. Для deploy будет необходимо загрузить [settings.xml](./teamcity/settings.xml) в набор конфигураций maven у teamcity, предварительно записав туда креды для подключения к nexus.
