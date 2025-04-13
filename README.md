@@ -131,9 +131,16 @@ git push origin master
 
 18. Проверьте, что конфигурация в репозитории содержит все настройки конфигурации из teamcity.
  ![рис 31](https://github.com/ysatii/teamcity/blob/main/img/img_31.jpg)
+ ![рис 32](https://github.com/ysatii/teamcity/blob/main/img/img_32.jpg)
+ ![рис 33](https://github.com/ysatii/teamcity/blob/main/img/img_32.jpg)
+ ![рис 34](https://github.com/ysatii/teamcity/blob/main/img/img_33.jpg)
+
+нужно создать ключи, добавить их в git и teamcity . данные будут уходить в ветку мастер
+пользователь git установить "git" если написать имя своего пользователя на github постоянно получаю ошибку!
+
+тогда в корне проекта будет создана папка  ".teamcity" с нужным содержиммы 
+[папка .teamcity](https://github.com/ysatii/example-teamcity/tree/master/.teamcity)
 
 19. В ответе пришлите ссылку на репозиторий.
-
+https://github.com/ysatii/example-teamcity
 ---
-
-### Как оформить решение задания
