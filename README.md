@@ -103,6 +103,9 @@ git push origin feature/add_reply
  ![рис 21](https://github.com/ysatii/teamcity/blob/main/img/img_21.jpg)
  ![рис 22](https://github.com/ysatii/teamcity/blob/main/img/img_22.jpg)
 
+ ![рис 23](https://github.com/ysatii/teamcity/blob/main/img/img_23.jpg)
+ ![рис 24](https://github.com/ysatii/teamcity/blob/main/img/img_24.jpg)
+
 14. Внесите изменения из произвольной ветки `feature/add_reply` в `master` через `Merge`.
 15. Убедитесь, что нет собранного артефакта в сборке по ветке `master`.
 16. Настройте конфигурацию так, чтобы она собирала `.jar` в артефакты сборки.
