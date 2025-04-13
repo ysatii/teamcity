@@ -113,7 +113,7 @@ git merge feature/add_reply
 git push origin master
 ```
 15. Убедитесь, что нет собранного артефакта в сборке по ветке `master`.
-
+готово!
 
 16. Настройте конфигурацию так, чтобы она собирала `.jar` в артефакты сборки.
  ![рис 26](https://github.com/ysatii/teamcity/blob/main/img/img_26.jpg)
@@ -130,6 +130,8 @@ git push origin master
 
 
 18. Проверьте, что конфигурация в репозитории содержит все настройки конфигурации из teamcity.
+ ![рис 31](https://github.com/ysatii/teamcity/blob/main/img/img_31.jpg)
+
 19. В ответе пришлите ссылку на репозиторий.
 
 ---
