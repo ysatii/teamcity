@@ -79,19 +79,19 @@ git checkout -b feature/add_reply
 10. Напишите новый метод для класса Welcomer: метод должен возвращать произвольную реплику, содержащую слово `hunter`.
 Welcomer.java и добавим туда:
 
-public String hunterReply() {
+*public String hunterReply() {
     return "Only a true hunter dares to challenge the unknown!";
-}
+}*
 
 11. Дополните тест для нового метода на поиск слова `hunter` в новой реплике.
 /WelcomerTest.java и добавим:
 
-@Test
+*@Test
 public void testHunterReplyContainsHunter() {
     Welcomer welcomer = new Welcomer();
     String reply = welcomer.hunterReply();
     assertTrue(reply.contains("hunter"));
-}
+}*
 
 12. Сделаtv push всех изменений в новую ветку репозитория.
 ```
@@ -107,9 +107,28 @@ git push origin feature/add_reply
  ![рис 24](https://github.com/ysatii/teamcity/blob/main/img/img_24.jpg)
 
 14. Внесите изменения из произвольной ветки `feature/add_reply` в `master` через `Merge`.
+```
+git checkout master
+git merge feature/add_reply
+git push origin master
+```
 15. Убедитесь, что нет собранного артефакта в сборке по ветке `master`.
+
+
 16. Настройте конфигурацию так, чтобы она собирала `.jar` в артефакты сборки.
+ ![рис 26](https://github.com/ysatii/teamcity/blob/main/img/img_26.jpg)
+
+
 17. Проведите повторную сборку мастера, убедитесь, что сбора прошла успешно и артефакты собраны.
+ ![рис 27](https://github.com/ysatii/teamcity/blob/main/img/img_27.jpg)
+
+Ошибка возникает из-за наличия Nexus Repository уже собранного файла нашей версии
+
+ ![рис 28](https://github.com/ysatii/teamcity/blob/main/img/img_28.jpg)
+ ![рис 29](https://github.com/ysatii/teamcity/blob/main/img/img_29.jpg)
+ ![рис 30](https://github.com/ysatii/teamcity/blob/main/img/img_30.jpg)
+
+
 18. Проверьте, что конфигурация в репозитории содержит все настройки конфигурации из teamcity.
 19. В ответе пришлите ссылку на репозиторий.
 
